@@ -39,7 +39,7 @@ public class JMSSubscriber implements MessageListener {
 			subscriber.setMessageListener((MessageListener) this);
 			System.out.println("Esperando mensajes ...");
 			
-			topicConnection.close();
+			//topicConnection.close();
 		} catch (Exception e) {
 			
 			e.printStackTrace();
